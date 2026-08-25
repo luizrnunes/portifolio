@@ -4,16 +4,19 @@
 
 ### Desenvolvedor em formação • Ciência da Computação
 
-<p>
-  <a href="https://luizrnunes.github.io/portifolio/">
-    <img src="https://img.shields.io/badge/🌐%20ACESSAR%20PORTFÓLIO-37658F?style=for-the-badge" alt="Acessar Portfólio">
-  </a>
-  <a href="https://github.com/luizrnunes">
-    <img src="https://img.shields.io/badge/GitHub-102A43?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-</p>
+<br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=20&duration=3000&pause=1000&color=37658F&center=true&vCenter=true&width=650&lines=Transformando+ideias+em+código.;Desenvolvedor+em+formação.;Tecnologia%2C+criatividade+e+disciplina." alt="Animação">
+<a href="https://luizrnunes.github.io/portifolio/">
+  <img src="https://img.shields.io/badge/🌐%20ACESSAR%20PORTFÓLIO-37658F?style=for-the-badge" alt="Acessar Portfólio">
+</a>
+
+<a href="https://github.com/luizrnunes">
+  <img src="https://img.shields.io/badge/GitHub-102A43?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+
+<br><br>
+
+> **Transformando ideias em código.**
 
 </div>
 
@@ -23,9 +26,9 @@
 
 Este repositório contém meu **portfólio profissional**, desenvolvido para apresentar minha trajetória na área de tecnologia, meus projetos, habilidades, formação e formas de contato.
 
-O projeto foi criado com foco em uma experiência visual **moderna, elegante, responsiva e objetiva**, utilizando uma identidade visual baseada em tons de azul, tipografia diferenciada e elementos de interação.
+O projeto foi desenvolvido com foco em uma experiência visual **moderna, elegante, responsiva e objetiva**, utilizando uma identidade visual baseada em tons de azul, tipografias diferenciadas e elementos de interação.
 
-> **"Transformando ideias em código."**
+O portfólio também conta com **tema claro e escuro**, adaptações para dispositivos móveis e diferentes efeitos de interação.
 
 ---
 
@@ -33,103 +36,186 @@ O projeto foi criado com foco em uma experiência visual **moderna, elegante, re
 
 <div align="center">
 
-### 🔗 Portfólio online
-
 <a href="https://luizrnunes.github.io/portifolio/">
-  <img src="https://img.shields.io/badge/ACESSE%20MEU%20PORTFÓLIO-37658F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Acessar portfólio">
+  <img src="https://img.shields.io/badge/ACESSE%20MEU%20PORTFÓLIO-37658F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Acessar Portfólio">
 </a>
 
 <br><br>
 
-**https://luizrnunes.github.io/portifolio/**
+**🔗 https://luizrnunes.github.io/portifolio/**
 
 </div>
 
 ---
 
-## ✨ Seções do portfólio
+## ✨ Estrutura do portfólio
 
-O portfólio é dividido em diferentes seções para apresentar minha trajetória de forma organizada:
+O site é dividido em diferentes seções para apresentar minha trajetória de forma organizada.
 
-| Seção               | Descrição                                          |
-| ------------------- | -------------------------------------------------- |
-| 🏠 **Início**       | Apresentação pessoal e introdução ao portfólio     |
-| 👨‍💻 **Sobre**     | Informações sobre minha formação e objetivos       |
-| 🚀 **Projetos**     | Projetos desenvolvidos durante minha formação      |
-| 🛠️ **Habilidades** | Tecnologias e conhecimentos atuais                 |
-| 🎓 **Experiências** | Formação acadêmica e trajetória                    |
-| 📊 **Estatísticas** | Informações e números relacionados à minha jornada |
-| 📩 **Contato**      | E-mail, localização e WhatsApp                     |
+### 🏠 Início
+
+Apresentação principal com:
+
+* Nome
+* Área de atuação
+* Descrição profissional
+* Links para projetos
+* Formas de contato
+* Redes sociais
+* Foto de perfil
 
 ---
 
-## 🚀 Projetos apresentados
+### 👨‍💻 Sobre mim
 
-### 📚 StudyIn
+Seção dedicada à minha apresentação pessoal e formação.
 
-Plataforma de **organização e produtividade desenvolvida para estudantes**.
+Atualmente sou estudante de **Ciência da Computação** e formado como **Técnico em TI pelo SENAC**.
 
-O projeto foi desenvolvido utilizando:
+---
+
+### 🚀 Projetos
+
+Área dedicada aos principais projetos desenvolvidos durante minha formação.
+
+Atualmente o portfólio apresenta dois projetos:
+
+#### 📚 StudyIn
+
+Plataforma de organização e produtividade desenvolvida para estudantes.
+
+**Tecnologias:**
 
 `HTML` `CSS` `JavaScript`
 
-🔗 **Projeto online:**
-https://luizrnunes.github.io/StudyIn-/
+🔗 [Acessar StudyIn](https://luizrnunes.github.io/StudyIn-/)
 
 ---
 
-### 🌐 Projeto One-Page
+#### 🌐 Projeto One-Page
 
-Landing page desenvolvida com foco em **estrutura, design responsivo e experiência visual**.
+Landing page desenvolvida com foco em estrutura, design responsivo e experiência visual.
 
-Tecnologias utilizadas:
+**Tecnologias:**
 
 `HTML` `CSS` `JavaScript`
 
-🔗 **Projeto online:**
-https://luizrnunes.github.io/oone-page/
+🔗 [Acessar Projeto One-Page](https://luizrnunes.github.io/oone-page/)
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+### 🛠️ Habilidades
+
+O portfólio apresenta atualmente as seguintes habilidades:
+
+| Tecnologia   | Nível apresentado |
+| ------------ | ----------------: |
+| HTML / CSS   |               90% |
+| JavaScript   |               80% |
+| Java         |               75% |
+| Spring Boot  |               70% |
+| MySQL        |               70% |
+| Git / GitHub |               80% |
+
+---
+
+### 🎓 Formação & experiências
+
+A seção de jornada apresenta minha formação acadêmica e projetos.
+
+**2026 — Atual**
+
+🎓 **Ciência da Computação**
+UNICID
+
+Bacharelado em Ciência da Computação, desenvolvendo conhecimentos em programação, engenharia de software e tecnologia.
+
+---
+
+**2024 — 2026**
+
+💻 **Técnico em TI**
+SENAC
+
+Formação técnica em Tecnologia da Informação, com desenvolvimento de projetos práticos e conhecimentos em desenvolvimento web.
+
+---
+
+**Projeto em destaque**
+
+📚 **StudyIn**
+
+Projeto acadêmico voltado à organização e produtividade de estudantes.
+
+---
+
+## 📊 Estatísticas
+
+O portfólio possui uma seção de estatísticas com informações relacionadas à minha trajetória:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML CSS JavaScript">
+| 💻                  | ☕               | ✦             | ♥         |
+| ------------------- | --------------- | ------------- | --------- |
+| **2**               | **∞**           | **6+**        | **100%**  |
+| Projetos principais | Horas estudando | Certificações | Dedicação |
 
 </div>
 
-### Front-end
+---
 
-* HTML5
-* CSS3
-* JavaScript
+## 🌙 Tema claro e escuro
 
-### Recursos utilizados
+O portfólio possui um sistema de alternância entre **tema claro e tema escuro**.
 
-* CSS Grid
-* CSS Flexbox
-* Media Queries
-* CSS Variables
-* CSS Animations
-* Google Fonts
-* Smooth Scroll
-* Tema claro e escuro
-* Design responsivo
+A interface utiliza variáveis CSS para adaptar automaticamente:
+
+* Cores de fundo
+* Textos
+* Bordas
+* Cards
+* Sombras
+* Elementos de destaque
+* Navegação
+
+---
+
+## 📱 Design responsivo
+
+O projeto foi desenvolvido para funcionar em diferentes dispositivos.
+
+A interface possui adaptações para:
+
+* 🖥️ Desktop
+* 💻 Notebook
+* 📱 Tablet
+* 📱 Smartphone
+* 📱 Smartphones menores
+
+O layout reorganiza automaticamente os elementos conforme a largura da tela.
+
+---
+
+## ✨ Interações e animações
+
+O portfólio utiliza diversos efeitos visuais desenvolvidos com CSS, incluindo:
+
+* ✦ Animação do brilho da seção principal
+* ◯ Movimento suave do elemento orbital
+* 🖼️ Zoom nas imagens dos projetos
+* ↑ Elevação dos cards ao passar o mouse
+* 🔘 Efeitos de hover nos botões
+* 💙 Transições de cores
+* 📊 Animação das barras de habilidades
+* 🌙 Transição entre temas
+* ↗️ Efeitos nos links
+* 🧭 Rolagem suave entre seções
 
 ---
 
 ## 🎨 Identidade visual
 
-O projeto utiliza uma identidade visual baseada principalmente em **tons de azul**, buscando transmitir uma aparência profissional e tecnológica.
-
-### Tipografia
-
-O portfólio utiliza três famílias tipográficas:
-
-* **Poppins** — textos e elementos gerais
-* **Cormorant Garamond** — títulos principais
-* **Dancing Script** — elementos decorativos e destaques
+A identidade visual do projeto foi desenvolvida utilizando principalmente tons de azul.
 
 ### Paleta principal
 
@@ -138,50 +224,55 @@ O portfólio utiliza três famílias tipográficas:
 #37658F  → Azul principal
 #294E72  → Azul escuro
 #D9E9F7  → Azul claro
+#EAF4FC  → Azul muito claro
 #F5FAFF  → Fundo
 #FFFFFF  → Branco
 ```
 
----
+### Tipografia
 
-## 🌙 Tema claro e escuro
+O projeto utiliza três famílias tipográficas:
 
-O portfólio possui suporte a **tema claro e tema escuro**, permitindo alternar a aparência da interface através do botão localizado no cabeçalho.
+**Poppins**
 
-O tema escuro utiliza uma paleta baseada em tons de azul profundo, mantendo o contraste e a identidade visual do projeto.
+Utilizada nos textos, menus, botões e elementos gerais da interface.
 
----
+**Cormorant Garamond**
 
-## 📱 Responsividade
+Utilizada nos títulos principais e títulos dos projetos.
 
-O projeto foi desenvolvido para funcionar em diferentes tamanhos de tela.
+**Dancing Script**
 
-Possui adaptações específicas para:
-
-* 🖥️ Desktop
-* 💻 Notebook
-* 📱 Tablet
-* 📱 Celulares
-* 📱 Celulares pequenos
-
-A interface reorganiza automaticamente menus, projetos, habilidades, estatísticas e informações de contato de acordo com o tamanho da tela.
+Utilizada nos destaques e elementos decorativos.
 
 ---
 
-## ✨ Animações e interações
+## 🧩 Tecnologias
 
-O portfólio possui diversos elementos de interação, incluindo:
+<div align="center">
 
-* Movimento suave dos elementos da seção principal
-* Animação do brilho atrás da foto
-* Efeito de elevação nos cards
-* Zoom suave nas imagens dos projetos
-* Efeitos de hover nos botões
-* Animações nos elementos de navegação
-* Rolagem suave entre seções
-* Barras de habilidades animadas
-* Tema claro/escuro
-* Elementos decorativos animados
+<img src="https://skillicons.dev/icons?i=html,css,js" alt="HTML CSS JavaScript">
+
+</div>
+
+### Desenvolvimento
+
+* HTML5
+* CSS3
+* JavaScript
+
+### Recursos utilizados
+
+* CSS Variables
+* CSS Grid
+* CSS Flexbox
+* Media Queries
+* CSS Animations
+* CSS Transitions
+* Google Fonts
+* Smooth Scroll
+* Responsive Design
+* Dark Mode
 
 ---
 
@@ -208,46 +299,53 @@ portifolio/
 
 ---
 
-## 📚 Formação apresentada
+## 🚀 Como executar
 
-### 🎓 Ciência da Computação
+### 1. Clone o repositório
 
-**UNICID — Universidade Cidade de São Paulo**
+```bash
+git clone https://github.com/luizrnunes/portifolio.git
+```
 
-Bacharelado em Ciência da Computação.
+### 2. Entre na pasta
 
-**2026 — Atual**
+```bash
+cd portifolio
+```
+
+### 3. Execute
+
+Abra o arquivo:
+
+```text
+index.html
+```
+
+em seu navegador.
+
+O projeto não necessita de instalação de dependências para funcionar.
 
 ---
 
-### 💻 Técnico em TI
+## 🌐 Deploy
 
-**SENAC**
-
-Formação técnica em Tecnologia da Informação.
-
-**2024 — 2026**
-
----
-
-## 📊 Informações apresentadas
-
-O portfólio também apresenta alguns números relacionados à minha trajetória:
+O portfólio está hospedado gratuitamente através do **GitHub Pages**.
 
 <div align="center">
 
-| 💻                  | ☕               | ✦             | ♥         |
-| ------------------- | --------------- | ------------- | --------- |
-| **2**               | **∞**           | **6+**        | **100%**  |
-| Projetos principais | Horas estudando | Certificações | Dedicação |
+<a href="https://luizrnunes.github.io/portifolio/">
+  <img src="https://img.shields.io/badge/GitHub%20Pages-ONLINE-37658F?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages">
+</a>
+
+<br><br>
+
+**https://luizrnunes.github.io/portifolio/**
 
 </div>
 
 ---
 
 ## 📩 Contato
-
-Caso queira entrar em contato comigo:
 
 <div align="center">
 
@@ -267,51 +365,19 @@ Caso queira entrar em contato comigo:
 
 ---
 
-## 🚀 Executando o projeto localmente
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/luizrnunes/portifolio.git
-```
-
-Entre na pasta:
-
-```bash
-cd portifolio
-```
-
-Depois, basta abrir o arquivo:
-
-```text
-index.html
-```
-
-no navegador.
-
-Não é necessário instalar dependências ou configurar um servidor para executar a versão básica do projeto.
-
----
-
-## 🌐 Deploy
-
-O projeto está hospedado gratuitamente através do **GitHub Pages**.
-
-🔗 **URL oficial:**
-
-https://luizrnunes.github.io/portifolio/
-
----
-
 <div align="center">
 
-## 💙 Obrigado por visitar meu projeto!
-
-<img src="https://readme-typing-svg.demolab.com?font=Dancing+Script&size=24&duration=3500&pause=1200&color=37658F&center=true&vCenter=true&width=500&lines=Disciplina+hoje%2C+liberdade+amanhã.;Let's+code!+%E2%9C%A8" alt="Mensagem final">
+### 💙 Obrigado por visitar meu projeto!
 
 <br>
 
-⭐ **Se você gostou do projeto, considere deixar uma estrela neste repositório!**
+**"Disciplina hoje, liberdade amanhã."**
+
+<br><br>
+
+<a href="https://luizrnunes.github.io/portifolio/">
+  <img src="https://img.shields.io/badge/🌐%20VISITAR%20PORTFÓLIO-37658F?style=for-the-badge" alt="Visitar Portfólio">
+</a>
 
 <br><br>
 
