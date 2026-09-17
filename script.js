@@ -1,24 +1,41 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-
     /* =====================================================
        TEMA CLARO / ESCURO
     ====================================================== */
 
     const themeButton = document.getElementById("theme-button");
+    const savedTheme = localStorage.getItem("portfolio-theme");
 
-    const savedTheme =
-        localStorage.getItem("portfolio-theme");
+
+    function updateThemeButton() {
+
+        if (!themeButton) {
+            return;
+        }
+
+        const isDark =
+            document.body.classList.contains("dark-theme");
+
+        themeButton.textContent =
+            isDark ? "☀" : "☾";
+
+        themeButton.setAttribute(
+            "aria-label",
+            isDark
+                ? "Ativar tema claro"
+                : "Ativar tema escuro"
+        );
+
+    }
 
 
     if (savedTheme === "dark") {
-
         document.body.classList.add("dark-theme");
-
-        if (themeButton) {
-            themeButton.textContent = "☀";
-        }
     }
+
+
+    updateThemeButton();
 
 
     if (themeButton) {
@@ -30,23 +47,12 @@ document.addEventListener("DOMContentLoaded", () => {
             const isDark =
                 document.body.classList.contains("dark-theme");
 
-
             localStorage.setItem(
                 "portfolio-theme",
                 isDark ? "dark" : "light"
             );
 
-
-            themeButton.textContent =
-                isDark ? "☀" : "☾";
-
-
-            themeButton.setAttribute(
-                "aria-label",
-                isDark
-                    ? "Ativar tema claro"
-                    : "Ativar tema escuro"
-            );
+            updateThemeButton();
 
         });
 
@@ -68,12 +74,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let currentSection = "inicio";
 
-
         sections.forEach((section) => {
 
             const sectionTop =
                 section.offsetTop - 180;
-
 
             if (window.scrollY >= sectionTop) {
                 currentSection = section.id;
@@ -86,7 +90,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const target =
                 link.getAttribute("href");
-
 
             link.classList.toggle(
                 "active",
@@ -123,47 +126,53 @@ document.addEventListener("DOMContentLoaded", () => {
         );
 
 
-    elementsToReveal.forEach((element) => {
-
-        element.classList.add("reveal");
-
-    });
-
-
-    const revealObserver =
-        new IntersectionObserver(
-            (entries, observer) => {
-
-                entries.forEach((entry) => {
-
-                    if (!entry.isIntersecting) {
-                        return;
-                    }
+    const reducedMotion =
+        window.matchMedia(
+            "(prefers-reduced-motion: reduce)"
+        ).matches;
 
 
-                    entry.target.classList.add(
-                        "visible"
-                    );
+    if (reducedMotion) {
+
+        elementsToReveal.forEach((element) => {
+            element.classList.add("visible");
+        });
+
+    } else {
+
+        elementsToReveal.forEach((element) => {
+            element.classList.add("reveal");
+        });
 
 
-                    observer.unobserve(
-                        entry.target
-                    );
+        const revealObserver =
+            new IntersectionObserver(
+                (entries, observer) => {
 
-                });
+                    entries.forEach((entry) => {
 
-            },
-            {
-                threshold: 0.12
-            }
-        );
+                        if (!entry.isIntersecting) {
+                            return;
+                        }
+
+                        entry.target.classList.add("visible");
+
+                        observer.unobserve(entry.target);
+
+                    });
+
+                },
+                {
+                    threshold: 0.08
+                }
+            );
 
 
-    elementsToReveal.forEach((element) => {
+        elementsToReveal.forEach((element) => {
+            revealObserver.observe(element);
+        });
 
-        revealObserver.observe(element);
-
-    });
+    }
 
 
     /* =====================================================
@@ -171,15 +180,21 @@ document.addEventListener("DOMContentLoaded", () => {
     ====================================================== */
 
     const skillBars =
-        document.querySelectorAll(
-            ".skill-bar span"
-        );
+        document.querySelectorAll(".skill-bar span");
 
 
     skillBars.forEach((bar) => {
 
         const finalWidth =
             bar.style.width;
+
+
+        if (reducedMotion) {
+
+            bar.style.width = finalWidth;
+            return;
+
+        }
 
 
         bar.style.width = "0";
@@ -195,14 +210,12 @@ document.addEventListener("DOMContentLoaded", () => {
                             return;
                         }
 
-
                         setTimeout(() => {
 
                             bar.style.width =
                                 finalWidth;
 
                         }, 150);
-
 
                         currentObserver.unobserve(
                             entry.target
@@ -212,7 +225,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 },
                 {
-                    threshold: 0.5
+                    threshold: 0.4
                 }
             );
 
@@ -227,9 +240,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ====================================================== */
 
     const currentYear =
-        document.getElementById(
-            "current-year"
-        );
+        document.getElementById("current-year");
 
 
     if (currentYear) {
@@ -245,9 +256,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ====================================================== */
 
     const backTop =
-        document.querySelector(
-            ".back-top"
-        );
+        document.querySelector(".back-top");
 
 
     if (backTop) {
@@ -258,13 +267,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 event.preventDefault();
 
-
                 window.scrollTo({
-
                     top: 0,
-
-                    behavior: "smooth"
-
+                    behavior: reducedMotion
+                        ? "auto"
+                        : "smooth"
                 });
 
             }
@@ -274,7 +281,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     /* =====================================================
-       FECHAR MENU / SCROLL SUAVE
+       SCROLL SUAVE
     ====================================================== */
 
     document.querySelectorAll(
@@ -298,9 +305,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                 const target =
-                    document.querySelector(
-                        targetId
-                    );
+                    document.querySelector(targetId);
 
 
                 if (!target) {
@@ -312,7 +317,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                 target.scrollIntoView({
-                    behavior: "smooth",
+                    behavior: reducedMotion
+                        ? "auto"
+                        : "smooth",
                     block: "start"
                 });
 
